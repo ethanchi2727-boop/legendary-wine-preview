@@ -1,0 +1,25 @@
+{
+  "project": "传奇酒荟",
+  "version": "3.0",
+  "baseDesignWidth": 750,
+  "notes": [
+    "所有位图均为开发可直接引用的裁剪版本，source 目录保留 AI 原图。",
+    "卡片图统一使用 4:3；首页与任务 Banner 使用 25:12；商品另提供 1:1 方图。",
+    "SVG 图标使用 currentColor，可由 CSS 或 UniApp 样式控制颜色。"
+  ],
+  "assets": [
+    {"id":"homeHero","path":"banners/home-banquet-hero@1x.jpg","size":"750x360","usage":"首页主Banner","objectPosition":"center center"},
+    {"id":"homeHero2x","path":"banners/home-banquet-hero@2x.jpg","size":"1500x720","usage":"首页主Banner高清"},
+    {"id":"aiTask","path":"banners/ai-video-task@1x.jpg","size":"750x360","usage":"短视频任务Banner","objectPosition":"center center"},
+    {"id":"aiTask2x","path":"banners/ai-video-task@2x.jpg","size":"1500x720","usage":"短视频任务Banner高清"},
+    {"id":"eventBurgundy","path":"events/event-burgundy@2x.jpg","size":"960x720","usage":"酒红主题私宴"},
+    {"id":"eventCantonese","path":"events/event-cantonese@2x.jpg","size":"960x720","usage":"粤菜午宴"},
+    {"id":"eventBusiness","path":"events/event-business@2x.jpg","size":"960x720","usage":"商务威士忌晚宴"},
+    {"id":"restaurantNight","path":"restaurants/restaurant-night@2x.jpg","size":"960x720","usage":"夜景高端餐厅"},
+    {"id":"restaurantGarden","path":"restaurants/restaurant-garden@2x.jpg","size":"960x720","usage":"江南园林餐厅"},
+    {"id":"wineGift","path":"products/wine-gift-set@2x.jpg","size":"960x720","usage":"会员酒水礼包"},
+    {"id":"wineGiftSquare","path":"products/wine-gift-set-square@2x.jpg","size":"640x640","usage":"礼包商品方图"}
+  ],
+  "thumbnailPattern": "thumbs/*@1x.jpg",
+  "iconPattern": "icons/*.svg"
+}
